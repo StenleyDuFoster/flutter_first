@@ -2,17 +2,17 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(new MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: new Scaffold(
-      appBar: new AppBar(title: new Text("Stanley")),
+      appBar: AppBar(title: Text("Stanley")),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          new firstWidget(),
-          new firstWidget(),
-          new firstWidget()
+          firstWidget(),
+          firstWidget(),
+          firstWidget()
         ],
       )
     )
